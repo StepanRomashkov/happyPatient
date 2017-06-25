@@ -1,3 +1,13 @@
+.ui.grid>.row {
+    background-image: url("../../assets/images/bg_clinic.jpg");
+    background-size: cover;
+    position: relative;
+}
+
+.ui.center.aligned.container {
+    padding-top: 20px;
+}
+
 .ui.form>.field>label {
     color: white;
 }

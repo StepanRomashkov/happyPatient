@@ -3,7 +3,6 @@ import { NgModule } from '@angular/core';
 
 import { AppComponent } from './app.component';
 import { SetAppointmentComponent } from './set-appointment/set-appointment.component';
-import { CalendarComponent } from './calendar/calendar.component';
 
 @NgModule({
   declarations: [
