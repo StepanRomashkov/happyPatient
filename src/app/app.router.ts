@@ -14,7 +14,8 @@ export const router: Routes = [
     { path: 'dentist-card', component: DentistCardComponent },
     { path: 'set-appointment', component: SetAppointmentComponent},
     { path: 'login', component: LoginComponent },
-    { path: 'admin-page', component: AdminPageComponent }
+    { path: 'admin-page', component: AdminPageComponent },
+    { path: 'login/admin', redirectTo: 'admin-page'}
     
 ];
 
