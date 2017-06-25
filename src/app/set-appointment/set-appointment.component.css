@@ -1,0 +1,11 @@
+.ui.form>.field>label {
+    color: white;
+}
+
+.ui.form>.ui.header {
+    color: white;
+}
+
+.ui.grid>.row>.column {
+    padding-right: 4rem;
+}

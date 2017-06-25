@@ -1,33 +1,47 @@
-<div class="ui three column grid">
-  <div class="column">
-    <div class="ui segment">
-      <img>
+<!--<div class="ui container">-->
+  <div class="ui three column grid">
+    <div class="row">
+    <div class="column">
+      <div class="ui segment">
+        <img>
+      </div>
     </div>
-  </div>
-  <div class="column">
-    <div class="ui segment">
-      <img>
+    <div class="column">
+      <div class="ui segment">
+        <img>
+      </div>
     </div>
-  </div>
-  <div class="column">
-    <div class="ui segment">
-      <form class="ui form">
-        <div class="field">
-          <label>First Name</label>
-          <input type="text" name="first-name" placeholder="First Name">
-        </div>
-        <div class="field">
-          <label>Last Name</label>
-          <input type="text" name="last-name" placeholder="Last Name">
-        </div>
-        <div class="field">
-          <div class="ui checkbox">
-            <input type="checkbox" tabindex="0" class="hidden">
-            <label>I agree to the Terms and Conditions</label>
+    <div class="column">
+        <form class="ui form">
+          <h3 class="ui header">Make new appointment</h3>
+          <div class="field">
+            <label>First Name</label>
+            <input type="text" name="first-name" placeholder="First Name">
           </div>
-        </div>
-        <button class="ui button" type="submit">Submit</button>
-      </form>
+          <div class="field">
+            <label>Last Name</label>
+            <input type="text" name="last-name" placeholder="Last Name">
+          </div>
+          <div class="field">
+            <label>Address</label>
+            <input type="text" name="address" placeholder="Address">
+          </div>
+          <div class="field">
+            <label>Email</label>
+            <input type="text" name="email" placeholder="email@something.com">
+          </div>
+          <div class="field">
+            <label>Phone</label>
+            <input type="text" name="phone" placeholder="xxx">
+          </div>
+          <div class="fluid ui positive animated button" tabindex="0">
+            <div class="visible content">Submit the information</div>
+            <div class="hidden content">
+              It will cost you tons of money<i class="right arrow icon"></i>
+            </div>
+          </div>
+        </form>
     </div>
   </div>
-</div>
+  </div>
+<!--</div>-->
