@@ -1,0 +1,35 @@
+.ui.grid {
+    background-image: url("../../assets/images/about.jpg");
+    background-size: cover;
+    position: relative;
+}
+
+.ui.grid>.row {
+  padding-bottom: 20px;
+}
+
+.ui.grid>.row>.header {
+  font-size: xx-large;
+  font-style: broder;
+  color:white;
+  padding-bottom: 20px;
+  padding-top: 20px;
+  position: relative;
+  text-align: center;
+}
+
+.ui.grid>.row>.description {
+  font-size: x-large;
+  font-style: broder;
+  color: white;
+  padding-top:60px;
+  padding-bottom:20px;
+}
+
+.ui.grid>.row>.accordion>.header {
+  font-size: xx-large;
+  font-style: broder;
+  padding-bottom: 20px;
+  padding-top: 20px;
+
+}
