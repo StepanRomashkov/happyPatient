@@ -3,11 +3,14 @@ import { NgModule } from '@angular/core';
 
 import { AppComponent } from './app.component';
 import { SetAppointmentComponent } from './set-appointment/set-appointment.component';
+//import { CalendarComponent } from './calendar/calendar.component';
+import { DentistCardComponent } from './dentist-card/dentist-card.component';
 
 @NgModule({
   declarations: [
     AppComponent,
-    SetAppointmentComponent
+    SetAppointmentComponent,
+    DentistCardComponent
   ],
   imports: [
     BrowserModule
