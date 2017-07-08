@@ -1,35 +1,38 @@
 .ui.grid {
     background-image: url("../../assets/images/about.jpg");
     background-size: cover;
-    position: relative;
+    /*margin: -1rem;*/
+    color: lightgreen;
 }
 
 .ui.grid>.row {
   padding-bottom: 20px;
+  padding-left: 2rem;
+  padding-right: 2rem;  
+  text-shadow: 1px 1px darkslategray;
+  font-size: 2rem;
+  line-height: 3rem;
 }
 
-.ui.grid>.row>.header {
-  font-size: xx-large;
-  font-style: broder;
-  color:white;
-  padding-bottom: 20px;
-  padding-top: 20px;
-  position: relative;
-  text-align: center;
+.ui.accordion .title:not(.ui) {
+  color: lightgreen;
+  font-size: 1.5rem;
 }
 
-.ui.grid>.row>.description {
-  font-size: x-large;
-  font-style: broder;
-  color: white;
-  padding-top:60px;
-  padding-bottom:20px;
+.ui.center.aligned.header, .ui.centered.header {
+  font-size: 4rem;
+  padding: 2rem;
 }
 
-.ui.grid>.row>.accordion>.header {
-  font-size: xx-large;
-  font-style: broder;
-  padding-bottom: 20px;
-  padding-top: 20px;
+#mainHeader {
+  color: lightgreen;
+}
 
+#secondHeader {
+  color: lightgreen;
+  font-size: 3rem;
+}
+
+#contactInfo {
+  font-size: 1.5rem;
 }

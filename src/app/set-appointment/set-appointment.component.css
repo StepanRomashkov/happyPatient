@@ -1,11 +1,14 @@
-.ui.grid>.row {
+.ui.grid {
     background-image: url("../../assets/images/bg_clinic.jpg");
     background-size: cover;
-    position: relative;
 }
 
 .ui.center.aligned.container {
     padding-top: 20px;
+}
+
+.ui.form {
+    text-shadow: 2px 2px 2px black;
 }
 
 .ui.form>.field>label {
@@ -14,6 +17,7 @@
 
 .ui.form>.ui.header {
     color: white;
+    font-size: 2rem;
 }
 
 .ui.grid>.row>.column {
